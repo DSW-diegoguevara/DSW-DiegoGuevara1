@@ -1,0 +1,21 @@
+header{
+    background-color:gainsboro;
+}
+nav{
+    background-color:lemonchiffon;
+}
+section{
+    background-color: #950101;
+    grid-column:1/4;
+}
+aside{
+    background-color: #950101;
+    grid-column:4/5;
+}
+footer{
+    background-color:floralwhite;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
